@@ -1,0 +1,136 @@
+.footer {
+  background-color: #1136a0;
+  color: #f0f0f0;
+  padding: 5px 10px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 2px;
+  min-width: 100px;
+}
+
+.footer-title {
+  font-size: 24px;
+  
+  margin-left: -450px;
+}
+
+.footer-heading {
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding-top: 50px;
+  margin-left: -350px;  
+}
+
+.footer-text {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  margin-left: -430px;  
+  width: 100%;
+  color: #fff;
+}
+
+.footer-link {
+  font-size: 15px;
+  display: block;
+  color: #f0f0f0;
+  text-decoration: none;
+  
+  margin-bottom: 10px;
+  margin-left: -100px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-heading1 {
+  font-size: 25px;  
+  padding-top: 50px;
+  width: 300px;
+  margin-left: 40px;  
+}
+
+.footer-heading2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding-top: 50px;
+  margin-left: -300px;  
+}
+
+
+
+.social-icons a img {
+  width: 50px;
+  height: 50px;  
+  
+}
+
+.social-icons i {
+  color: #fff;
+  font-size: 30px;
+  margin-right: -170px;
+}
+
+.social-icons i:not(:last-child) img {
+  margin-right: 500px; /* Add margin only between icons */
+}
+
+.newsletter .input-message,
+.newsletter .input-email {
+  display: block;
+  width: 350px;
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  }
+
+.newsbtn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;  
+  cursor: pointer;
+  width: 320px;
+  text-align: center;
+}
+
+.newsbtn:hover{
+  border: 1px solid #d29062;
+  background: #d29062;
+  transition: 1s;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.footer-bottom p {
+  margin: 0;  
+}
+
+.payment-icons i {
+  width: 40px;
+  height: 24px;
+  margin-right: 50px;
+  font-size: 40px;
+}

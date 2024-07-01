@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    background-color: #004085;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.account-container {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 20%;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+aside h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside li {
+    margin: 10px 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: #004085;
+}
+
+aside a.active {
+    font-weight: bold;
+}
+
+.payment-options {
+    width: 80%;
+    padding: 20px;
+}
+
+.payment-options h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.payment-table {
+    width: 100%;
+}
+
+.payment-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+.separator {
+    height: 2px;
+    background-color: black;
+    margin: 10px 0;
+}
+
+.payment-entry {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.payment-entry button {
+    background-color: #004085;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-card {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-card-btn {
+    background-color: #004085;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}

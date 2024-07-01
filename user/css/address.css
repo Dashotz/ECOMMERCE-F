@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    background-color: #004085;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.account-container {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 10%;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+aside h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside li {
+    margin: 10px 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: #004085;
+}
+
+aside a.active {
+    font-weight: bold;
+}
+
+.address-book {
+    width: 80%;
+    padding: 20px;
+}
+
+.address-book h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.address-table {
+    width: 100%;    
+    border-collapse: collapse;
+}
+
+.address-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #e9ecef;
+    font-weight: bold;
+    width: 108%;   
+}
+
+.separator {
+    height: 2px;
+    background-color: black;
+    margin: 10px 0;
+    width: 109%;
+}
+
+.address-entry {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: -140px;
+    align-items: center;
+}
+
+.address-entry button {
+    background-color: #004085;
+    color: white;
+    border: none;     
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-new-address {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-new-address button {
+    background-color: #004085;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 19%;
+}
